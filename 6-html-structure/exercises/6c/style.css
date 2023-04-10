@@ -1,0 +1,26 @@
+p {
+    font-family:Arial;
+}
+
+.post-box{
+    width:500px;
+}
+
+.post-author{
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+.author-hashtag{
+    margin-left:5px;
+    font-weight:normal;
+    color: rgb(100, 100, 100);
+}
+
+.post-description{
+    margin-top:0px;
+}
+
+.mention-hashtag{
+    color:rgb(29, 155, 240);
+}

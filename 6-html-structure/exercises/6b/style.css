@@ -1,0 +1,27 @@
+p {
+    font-family:Arial;
+}
+
+.coin-info{
+    margin-bottom:2px;
+}
+
+.coin-flag{
+    font-size:9px;
+    color:gray;
+}
+.coin-difference{
+    font-size:8.1px;
+    margin-top:0px;
+    margin-bottom:5px;
+    color:greenyellow;
+}
+.coin-time{
+    font-size:8.1px;
+    margin-top:0px;
+    color:gray;
+}
+
+.coin-balance{
+    color:red;
+}
