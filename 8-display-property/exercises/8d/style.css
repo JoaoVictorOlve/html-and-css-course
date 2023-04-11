@@ -1,0 +1,38 @@
+.first-name-form{
+    width:114px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:16px;
+    padding-right:16px;
+    border:1px solid gray;
+    border-radius:8px;
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+.email-form{
+    display:block;
+    width:266px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:16px;
+    padding-right:16px;
+    border:1px solid gray;
+    border-radius:8px;
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+.sign-up-button{
+    width:300px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    background-color:rgb(47, 127, 231);
+    border:none;
+    border-radius:8px;
+}

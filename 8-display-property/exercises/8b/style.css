@@ -1,0 +1,13 @@
+.survey-question {
+    display:inline-block;
+    vertical-align:middle;
+    width:200px;
+}
+
+.yes-button{
+    vertical-align:middle;
+}
+
+.no-button{
+    vertical-align:middle;
+}
