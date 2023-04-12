@@ -1,0 +1,49 @@
+
+
+.logo-container{
+    display:block;
+    text-align:center;
+}
+
+.google-logo{
+    width:272px;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.input-container{
+    display:block;
+    text-align:center;
+}
+
+.search-bar{
+    font-size:18px;
+    border-radius:48px;
+    border: 0;
+    box-shadow:  0 0 4px  rgba(80, 80, 80, 0.6);
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    width:638px;
+    height:38px;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.buttons-container{
+    display:block;
+    text-align:center;
+}
+
+.button{
+    border:none;
+    font-size:16px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:30px;
+    background-color:rgb(245, 245, 245);
+}
