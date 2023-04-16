@@ -1,0 +1,47 @@
+.cover-page{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.sidebar{
+    color:white;
+    right:0;
+    top:0;
+    bottom:0;
+    position:fixed;
+    background-color:green;
+    width:100px;
+}
+
+.modal {
+    background-color:white;
+    padding:30px;
+    border-radius:4px;
+    width:500px;
+    height:180px;
+}
+
+.modal-title{
+    font-size:50px;
+    margin-top:10px;
+    margin-bottom:12px;
+}
+
+.modal-description{
+    font-size:33px;
+    margin-bottom:12px;
+}
+
+.close-button{
+    margin-top:5px;
+    font-size:20px;
+    width:90px;
+    height:30px;
+}
