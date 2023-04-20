@@ -47,7 +47,62 @@
 
 .video-grid {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap:16px;
     row-gap:40px;
+}
+
+.profile-picture-container{
+    display:inline-block;
+    position:relative;
+}
+
+.profile-picture-container .channel-tooltip{
+    left:0;
+    bottom:-75px;
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:6px;
+    border-radius:4px;
+    box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0.322);
+    opacity:0;
+    pointer-events:none;
+    transition: opacity 0.15s;
+    cursor:pointer;
+}
+
+.profile-picture-container:hover .channel-tooltip{
+    opacity:1;
+}
+
+.channel-img{
+    width:50px;
+    border-radius:50%;
+}
+
+.tooltip-info{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:6px;
+    padding-right:6px;
+    font-family:Roboto, Arial;
+}
+
+.tooltip-name{
+    font-weight:500;
+    white-space: nowrap;
+    font-size:15px;
+    margin-bottom:2px;
+}
+
+.tooltip-subscriptions{
+    color:#606060;
+    font-size:14px;
+    white-space: nowrap;
 }
